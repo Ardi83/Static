@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta name="theme-color" content="#317EFB"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eli</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>                
+  
+    <div class="header"> 
+            <h1 id="top_page">Eli</h1> 
+        </div>
+    <div class="top-row" role="banner">
+        <nav class="nav-bar" role="navigation">
+
+
+
+                <div id="menuToggle">
+                  <!--
+                  A fake / hidden checkbox is used as click reciever,
+                  so you can use the :checked selector on it.
+                  -->
+                  <input type="checkbox" />
+                  
+                  <!--
+                  Some spans to act as a hamburger.
+                  
+                  They are acting like a real hamburger,
+                  not that McDonalds stuff.
+                  -->
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  
+                  <!--
+                  Too bad the menu has to be inside of the button
+                  but hey, it's pure CSS magic.
+                  -->
+                  <ul id="menu">
+                        
+                    <li><a href="#" class="list-item home">Home</a></li>
+                <li><a href="#" class="list-item new">New selection</a></li>
+                <li><a href="#" class="list-item season">Season&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&raquo;</a>
+                    <ul class="drop-menu menu1">
+                        <li>SUMMER</li>
+                        <li>WINTER</li>
+                        <li>AUTOMN</li>
+                    </ul>
+                </li>
+                <li><a href="#" class="list-item categories">Categories&nbsp;&nbsp;&raquo;</a>
+                    <ul class="drop-menu menu2">
+                            <li>MEN</li>
+                            <li>WEMON</li>
+                            <li id="gift">GIFTS</li>
+                        </ul>
+                </li>
+                <li><a href="#" class="list-item about">About</a></li>
+                <li><a href="#help" class="list-item contact">Contact</a></li>
+                  </ul>
+                </div>
+              
+
+
+
+
+            <ul class="list-content">
+                <li><a href="#" class="list-item home">Home</a></li>
+                <li><a href="#" class="list-item new">New selection</a></li>
+                <li><a href="#" class="list-item season">Season</a>
+                    <ul class="drop-menu menu-1">
+                        <li>SUMMER</li>
+                        <li>WINTER</li>
+                        <li>AUTOMN</li>
+                    </ul>
+                </li>
+                <li><a href="#" class="list-item categories">Categories</a>
+                    <ul class="drop-menu menu-2">
+                            <li>MEN</li>
+                            <li>WEMON</li>
+                            <li id="gift">GIFTS</li>
+                        </ul>
+                </li>
+                <li><a href="#" class="list-item about">About</a></li>
+                <li><a href="#help" class="list-item contact">Contact</a></li>
+            </ul>
+        </nav>
+        <form class="search-part" role="search">
+            <input type="search" placeholder=" search...">
+            <button type="submit" name="search" value="button"><i class="fas fa-search"></i></button>
+        </form>
+    </div>
+    
+    <div class="body_part2">
+        
+        <section role="region" class="grid part1">
+            <div role="row" class="rea_box">
+                <a href="#" style="text-decoration: none;">
+                    <div class="rea_box-contains">
+                            <h2>Mid Season Sale</h2>
+                            <h1>Up to 70% off</h1>
+                            <button class="rea_box-contains--btn">Shop here</button>
+                    </div>                
+                </a>
+            </div>
+
+
+            <div role="row" class="login_box">
+                <input type='checkbox' id='form-switch'>
+                <form id='login-form' action="" method='post'>
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type='submit'>Login</button>
+                <label for='form-switch'><span>Register</span></label>
+                </form>
+                <form id='register-form' action="" method='post'>
+                <input type="text" placeholder="Username" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Re Password" required>
+                <button type='submit'>Register</button>
+                <label for='form-switch'>Already Member ? Sign In Now..</label>
+                </form>
+            </div>    
+
+            <div role="row" class="basket_box">
+                <div class="discount_basket">
+                        <div class="discount_form">
+                            <label for="discount">Do you discount code?</label>
+                            <input type="checkbox" name="discount" id="discount_chbox">
+                            <span><h4>Enter Discount/Gift code please</h4>
+                                <input type="text" placeholder="Enter Discount/Gift code" name="discount" id="discount_input"><br>
+                                <input type="submit" value="Confirm" style="cursor: pointer;"></span>
+                        </div>
+                        <div class="basket_form">
+                            <i class="fas fa-3x fa-shopping-basket"></i>
+                        </div>
+                </div>   
+            </div>                
+            </section>
+            
+            <div role="link" class="box three">
+                    <a href="future_of_fashion.html" target="_blank" style="text-decoration: none;"> <span style="font: 14px arial; color:  black;">Download Future of fashion PDF</span><br>
+                        <img src="images/futureoffashion.jpg" style="width:200px;"></a><br>
+                top seller</div>
+
+            <section role="region" class="grid part2">                
+                <div role="img" class="box four">
+                    <div class="ts_info one">
+                    <a href="#" style="text-decoration: none;">
+                        <h4>Models name</h4>
+                        <h4>Design name</h4>
+                    </a>
+                    </div>
+                </div>
+                <div role="img" class="box five">
+                    <div class="ts_info two">
+                        <a href="#" style="text-decoration: none;">
+                            <h4>Models name</h4>
+                            <h4>Design name</h4>
+                        </a>
+                    </div>
+                </div>
+                <div role="img" class="box six">
+                    <div class="ts_info three">
+                        <a href="#" style="text-decoration: none;">
+                            <h4>Models name</h4>
+                            <h4>Design name</h4>
+                        </a>
+                    </div>        
+                </div>
+                <div role="img" class="box seven">
+                    <div class="ts_info four">
+                        <a href="#" style="text-decoration: none;">
+                            <h4>Models name</h4>
+                            <h4>Design name</h4>
+                        </a>
+                    </div>
+                </div>
+                <div role="img" class="box eight">
+                    <div class="ts_info five">
+                        <a href="#" style="text-decoration: none;">
+                            <h4>Models name</h4>
+                            <h4>Design name</h4>
+                        </a>
+                    </div>
+                </div>        
+            </section>
+
+            <div role="heading" class="newColl">New Coolection</div>
+
+            <section role="region" class="grid part3">
+                <div role="img" class="box nine">
+                    <div class="pic_info one">
+                        <a href="#" style="text-decoration: none;">
+                            <h4>Models name</h4>
+                            <h4>Design name</h4>
+                        </a>
+                    </div>
+                </div>
+                <div role="img" class="box ten">
+                    <div class="pic_info two">
+                        <a href="#" style="text-decoration: none;">
+                            <h4>Models name</h4>
+                            <h4>Design name</h4>
+                        </a>
+                    </div>
+                </div>
+                <div role="img" class="box eleven">
+                    <div class="pic_info three">
+                        <a href="#" style="text-decoration: none;">
+                            <h4>Models name</h4>
+                            <h4>Design name</h4>
+                        </a>
+                    </div>
+                </div>
+                <div role="img" class="box twelve">
+                    <div class="pic_info four">
+                        <a href="#" style="text-decoration: none;">
+                            <h4>Models name</h4>
+                            <h4>Design name</h4>
+                        </a>
+                    </div>
+                </div>
+                <div role="img" class="box thirteen">
+                    <div class="new_info one">
+                        <a href="#" style="text-decoration: none;">
+                            <h4>Models name</h4>
+                            <h4>Design name</h4>
+                        </a>
+                    </div>
+                </div>
+                <div role="img" class="box fourteen">
+                    <div class="new_info two">
+                        <a href="#" style="text-decoration: none;">
+                            <h4>Models name</h4>
+                            <h4>Design name</h4>
+                        </a>
+                    </div>
+                </div> 
+                <div role="img" class="box fifteen">
+                    <div class="new_info three">
+                        <a href="#" style="text-decoration: none;">
+                            <h4>Models name</h4>
+                            <h4>Design name</h4>
+                        </a>
+                    </div>
+                </div> 
+                <div role="row" class="box sixteen">
+                    <div class="new_info four">
+                        <a href="#" style="text-decoration: none;">
+                            <h4>Models name</h4>
+                            <h4>Design name</h4>
+                        </a>
+                    </div>
+                </div>  
+            </section>
+    </div>
+
+<footer class="flex-rw">
+  
+    <ul class="footer-list-top">
+      <li>
+        <h4 class="footer-list-header">About Eli</h4></li>
+      <li><a href='/shop/about-mission' class="generic-anchor footer-list-anchor" itemprop="significantLink">GET TO KNOW US</a></li>
+      <li><a href='/promos.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">PROMOS</a></li>
+      <li><a href='/retailers/new-retailers.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">BECOME A RETAILER</a></li>
+  
+      <li><a href='/job-openings.html' itemprop="significantLink" class="generic-anchor footer-list-anchor">JOB OPENINGS</a></li>
+  
+      <li><a href='#top_page' itemprop="significantLink" class="generic-anchor footer-list-anchor back_to_top" >BACK TO TOP</a></li>
+    </ul>
+    <ul class="footer-list-top">
+      <li>
+        <h4 class="footer-list-header">Category Selection</h4></li>
+  
+  
+      <li><a href='/New-Selection/id/70' class="generic-anchor footer-list-anchor">NEW SELECTION</a></li>
+      <li><a href='https://www.youtube.com/watch?v=9sCREFGEbGs' target="_blank" class="generic-anchor footer-list-anchor">FASHION SHOW</a></li>
+      <li><a href='/Persent-Card/id/32' class="generic-anchor footer-list-anchor">PRESENT CARD</a></li>
+      <li><a href='/Summer/id/108' class="generic-anchor footer-list-anchor">SUMMER</a></li>
+      <li><a href='/Winter/cat/id/117' class="generic-anchor footer-list-anchor" target="_blank">WINTER</a></li>
+    </ul>
+    <ul class="footer-list-top">
+      <li id='help'>
+        <h4 class="footer-list-header">Please Help Me</h4></li>
+      <li><a href='/shop/about-contact' class="generic-anchor footer-list-anchor" itemprop="significantLink">CONTACT</a></li>
+      <li><a href='/faq.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">FAQ</a></li>
+      <li id='find-a-store'><a href='/shop/store-locator' class="generic-anchor footer-list-anchor" itemprop="significantLink">STORE LOCATOR</a></li>
+      <li id='user-registration'><a href='/shop/user-registration?URL=' class="generic-anchor footer-list-anchor" itemprop="significantLink">NEW USERS</a></li>
+      <li id='order-tracking'><a href='/shop/order-status' itemprop="significantLink" class="generic-anchor footer-list-anchor">ORDER STATUS</a></li>
+    </ul>
+    <section class="footer-social-section flex-rw">
+        <span class="footer-social-overlap footer-social-connect">
+        CONNECT <span class="footer-social-small">with</span> US
+        </span>
+        <span class="footer-social-overlap footer-social-icons-wrapper">
+        <a href="#" class="generic-anchor" target="_blank" title="Pinterest" itemprop="significantLink"><i class="fab fa-pinterest"></i></a>
+        <a href="#" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="generic-anchor" target="_blank" title="Twitter" itemprop="significantLink"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="generic-anchor" target="_blank" title="Instagram" itemprop="significantLink"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="generic-anchor" target="_blank" title="Youtube" itemprop="significantLink"><i class="fab fa-youtube"></i></a>
+        <a href="#" class="generic-anchor" target="_blank" title="Google Plus" itemprop="significantLink"><i class="fab fa-google-plus"></i></a>
+        </span>
+    </section>
+    <section class="footer-bottom-section flex-rw">
+  <div class="footer-bottom-wrapper">   
+  <i class="fa fa-copyright" role="copyright">
+   
+  </i> 2019 Eli in <address class="footer-address" role="company address">Uppsala, SW</address><span class="footer-bottom-rights"> - All Rights Reserved - </span>
+      </div>
+      <div class="footer-bottom-wrapper">
+      <a href="/terms-of-use.html" class="generic-anchor" rel="nofollow">Terms</a> | <a href="/privacy-policy.html" class="generic-anchor" rel="nofollow">Privacy</a>
+        </div>
+    </section>
+  </footer>
+
+</body>
+</html>
+
+            
+        
+    
